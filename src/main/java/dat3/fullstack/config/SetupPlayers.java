@@ -20,7 +20,8 @@ public class SetupPlayers implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         List<String> players = new ArrayList<>(Arrays.asList(
-                "Lionel Messi", "Cristiano Ronaldo", "Neymar Jr.", "Kylian Mbappé", "Kevin De Bruyne", "Virgil van Dijk", "Robert Lewandowski", "Jan Oblak", "Kalidou Koulibaly", "Sergio Ramos", "Luka Modrić", "Paulo Dybala", "Antoine Griezmann", "Raheem Sterling", "Bernardo Silva", "Frenkie de Jong", "Joshua Kimmich", "Hugo Lloris", "Sergio Aguero", "Paulo Dybala", "Luis Alberto", "Thomas Muller", "Thomas Partey", "Riyad Mahrez", "Mohamed Salah"
+                "Lionel Messi", "Cristiano Ronaldo", "Neymar Jr.",
+                "Kylian Mbappé", "Kevin De Bruyne", "Virgil van Dijk", "Robert Lewandowski", "Jan Oblak"
         ));
 
         List<Player> playerEntities = players.stream().map(p->new Player(p)).collect(Collectors.toList());
