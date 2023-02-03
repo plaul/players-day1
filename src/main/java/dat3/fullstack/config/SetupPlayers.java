@@ -4,6 +4,7 @@ import dat3.fullstack.entity.Player;
 import dat3.fullstack.repositories.PlayerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
